@@ -1,0 +1,182 @@
+#form-login {
+    width: 280px;
+    height: 360px;
+    position: fixed;
+    left: 40%;;
+    top: 40%;
+    margin: auto;
+    background: rgba(255,255,255,.1);
+}
+
+#form-login #login-heading {
+    color: #19c880;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-login .login-lable {
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-login .login-input {
+    width: 210px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+#form-login #login-btn {
+    background-color: #19c880;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    margin-top: 20px;
+    margin-left:90px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-login {
+    width: 280px;
+    height: 360px;
+    position: fixed;
+    left: 40%;;
+    top: 40%;
+    margin: auto;
+    background: rgba(255,255,255,.1);
+}
+
+#form-login #login-heading {
+    color: #19c880;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-login .login-lable {
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-login .login-input {
+    width: 210px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+#form-login #login-btn {
+    background-color: #19c880;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    margin-top: 20px;
+    margin-left:90px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-login {
+    width: 280px;
+    height: 360px;
+    position: fixed;
+    left: 40%;;
+    top: 40%;
+    margin: auto;
+    background: rgba(255,255,255,.1);
+}
+
+#form-login #login-heading {
+    color: #19c880;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-login .login-lable {
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-login .login-input {
+    width: 210px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+#form-login #login-btn {
+    background-color: #19c880;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    margin-top: 20px;
+    margin-left:90px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-register {
+    width: 280px;
+    height: 440px;
+    position: fixed;
+    left: 40%;;
+    top: 35%;
+    margin: auto;
+    background: rgba(255,255,255,.1);
+}
+
+#form-register #register-heading {
+    color: #19c880;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-register .register-lable {
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-register .register-input {
+    width: 210px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+#form-register #register-btn {
+    background-color: #19c880;
+    border: none;
+    border-radius: 5px;
+    width: 95px;
+    color: white;
+    margin-top: 20px;
+    margin-left:37px;
+    font-family: Roboto, sans-serif;
+}
+
+#form-register #reset-btn {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 95px;
+    color: #19c880;
+    margin-top: 20px;
+    margin-left:10px;
+    font-family: Roboto, sans-serif;
+}
+
+
+
+
