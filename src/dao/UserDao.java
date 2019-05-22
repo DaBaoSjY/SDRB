@@ -15,11 +15,11 @@ public class UserDao {
         ResultSet rs = null;
         con = DBConnection.getDBConnection();
         int row = 0;
-        String sql = "insert into user(username,password) values(?,?)";
+        String sql = "insert into user(User_Name,User_Password) values(?,?)";
         try {
             pstmt = con.prepareStatement(sql);
-            pstmt.setString(1, user.getUsername());
-            pstmt.setString(2, user.getPassword());
+            pstmt.setString(1, user.getUser_Name());
+            pstmt.setString(2, user.getUser_Password());
             row = pstmt.executeUpdate();
         }catch(Exception e) {
             e.printStackTrace();
@@ -36,16 +36,16 @@ public class UserDao {
         ResultSet rs = null;
         con = DBConnection.getDBConnection();
         User user2 = null;
-        String sql = "select * from user where username=? and password=?";
+        String sql = "select * from user where User_Name=? and User_Password=?";
         try {
             pstmt = con.prepareStatement(sql);
-            pstmt.setString(1, user.getUsername());
-            pstmt.setString(2, user.getPassword());
+            pstmt.setString(1, user.getUser_Name());
+            pstmt.setString(2, user.getUser_Password());
             rs = pstmt.executeQuery();
             if (rs.next()) {
                 user2 = new User();
-                user2.setUsername(rs.getString("username"));
-                user2.setPassword(rs.getString("password"));
+                user2.setUser_Name(rs.getString("User_Name"));
+                user2.setUser_Password(rs.getString("User_Password"));
             }
         }catch(Exception e) {
             e.printStackTrace();
