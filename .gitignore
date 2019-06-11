@@ -1,2 +1,12 @@
-.idea/
+# .idea/
 out/
+.idea/workspace.xml
+src/admin/DBadmin.java
+
+# for eclipse:
+.settings/
+.classpath
+.project
+
+# for mac 
+.DS_Store
